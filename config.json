@@ -1,0 +1,155 @@
+{
+    "runs": 5,
+    "complexity_scale": 0.2,
+    "max_time": 135,
+    "max_complexity": 10.5,
+    "weights": {
+        "distance": 0.01,
+        "complexity": 0.5
+    },
+    "positions": [
+        {
+            "index": 0,
+            "x": 3,
+            "y": 266,
+            "punctuation": 20,
+            "time_needed": 2,
+            "factor": 2,
+            "label": "3D Cinema"
+        },
+        {
+            "index": 1,
+            "x": 37,
+            "y": 27,
+            "punctuation": 50,
+            "time_needed": 4,
+            "factor": 3,
+            "label": "Theater Scene Change"
+        },
+        {
+            "index": 2,
+            "x": 470,
+            "y": 24,
+            "punctuation": 20,
+            "time_needed": 2,
+            "factor": 2,
+            "label": "Immersive Experience"
+        },
+        {
+            "index": 3,
+            "x": 602,
+            "y": 18,
+            "punctuation": 30,
+            "time_needed": 2,
+            "factor": 2,
+            "label": "Masterpiece"
+        },
+        {
+            "index": 4,
+            "x": 838,
+            "y": 32,
+            "punctuation": 20,
+            "time_needed": 4,
+            "factor": 4,
+            "label": "Augmented Reality Statue"
+        },
+        {
+            "index": 5,
+            "x": 1138,
+            "y": 34,
+            "punctuation": 20,
+            "time_needed": 8,
+            "factor": 5,
+            "label": "Music Consert Lights and Sounds"
+        },
+        {
+            "index": 6,
+            "x": 1138,
+            "y": 93,
+            "punctuation": 20,
+            "time_needed": 2,
+            "factor": 2,
+            "label": "Hologram Performer"
+        },
+        {
+            "index": 7,
+            "x": 798,
+            "y": 619,
+            "punctuation": 30,
+            "time_needed": 8,
+            "factor": 4,
+            "label": "Rolling Camera"
+        },
+        {
+            "index": 8,
+            "x": 597,
+            "y": 598,
+            "punctuation": 20,
+            "time_needed": 8,
+            "factor": 4,
+            "label": "Movie Set"
+        },
+        {
+            "index": 9,
+            "x": 320,
+            "y": 296,
+            "punctuation": 30,
+            "time_needed": 15,
+            "factor": 6,
+            "label": "Sound Mixer"
+        },
+        {
+            "index": 10,
+            "x": 608,
+            "y": 334,
+            "punctuation": 30,
+            "time_needed": 4,
+            "factor": 3,
+            "label": "Light Show"
+        },
+        {
+            "index": 11,
+            "x": 878,
+            "y": 270,
+            "punctuation": 30,
+            "time_needed": 8,
+            "factor": 5,
+            "label": "Virtual Reality Artist"
+        },
+        {
+            "index": 12,
+            "x": 874,
+            "y": 334,
+            "punctuation": 30,
+            "time_needed": 5,
+            "factor": 4,
+            "label": "Craft Creator"
+        }
+    ],
+    "safe_areas": [
+        {
+            "x": 78,
+            "y": 571,
+            "label": "Base 1"
+        },
+        {
+            "x": 1125,
+            "y": 571,
+            "label": "Base 2"
+        }
+    ],
+    "max_board_points": 550,
+    "simulated_anealing_configuration": {
+        "parameters": {
+            "iterations": 100,
+            "start_temperature": 100,
+            "final_temperature": 0.05,
+            "decay_factor": 0.1
+        },
+        "weights": {
+            "complexity": 12,
+            "time": 1,
+            "punctuation": 0.15
+        }
+    }
+}
